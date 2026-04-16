@@ -93,7 +93,6 @@ CREATE USER 'user'@'localhost' IDENTIFIED BY 'pakorn2549';
 GRANT ALL PRIVILEGES ON reportapp.* TO 'user'@'localhost';
 FLUSH PRIVILEGES; -- 3 อย่างนี้คือการให้สิทธิ์รูท หากเกิดการผิดพลาด ถ้าเข้าถึง  root@localhost ไม่ได้  ก็เพิ่มใหม่แล้วให้สิทธิ์ใหม่เลยพร้อมรหัสด้วย ต้องแก้ที่ .env ด้วย เอาให้ตรงทั้งหมด
 
-SHOW DATABASES LIKE '%report%'; -- check databasename ต้องตรงกับใน server.js
 
 
 
