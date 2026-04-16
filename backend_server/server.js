@@ -164,7 +164,7 @@ app.post('/reset-password', (req, res) => {
 //get all users
 app.get('/users', (req, res) => {
   const sql = `
-    SELECT student_id, username, faculty, point
+    SELECT student_id, username, faculty, point, profile_image
     FROM users
     ORDER BY point DESC
   `;
