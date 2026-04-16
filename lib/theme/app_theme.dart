@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
-  // 🌞 Light Theme
+  // Light Theme
   static ThemeData lightTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
@@ -22,7 +22,7 @@ class AppTheme {
     textTheme: GoogleFonts.kanitTextTheme(ThemeData.light().textTheme),
   );
 
-  // 🌙 Dark Theme
+  // Dark Theme
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
