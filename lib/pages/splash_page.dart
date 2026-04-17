@@ -98,8 +98,8 @@ class _SplashPageState extends State<SplashPage>
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color.fromARGB(255, 11, 94, 60),
-              Color.fromARGB(255, 31, 175, 90),
+                Color.fromARGB(255, 0, 123, 255),
+                Color.fromARGB(255, 0, 166, 81)
             ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
