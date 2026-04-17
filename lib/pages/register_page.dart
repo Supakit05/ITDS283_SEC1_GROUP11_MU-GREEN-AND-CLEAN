@@ -13,11 +13,11 @@ class _RegisterPageState extends State<RegisterPage> {
   final _idController = TextEditingController();
   final _nameController = TextEditingController();
   final _passController = TextEditingController();
-  final _confirmPassController = TextEditingController(); // ✅ เพิ่ม
+  final _confirmPassController = TextEditingController(); 
   String? _selectedFaculty;
 
   bool _obscurePassword = true;
-  bool _obscureConfirmPassword = true; // ✅ เพิ่ม
+  bool _obscureConfirmPassword = true; 
 
   Future<void> register() async {
     if (_idController.text.isEmpty ||
@@ -30,7 +30,7 @@ class _RegisterPageState extends State<RegisterPage> {
       return;
     }
 
-    // ✅ เช็ครหัสตรงกัน
+    // เช็ครหัสตรงกัน
     if (_passController.text != _confirmPassController.text) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text("รหัสผ่านไม่ตรงกัน")),
