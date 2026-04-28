@@ -17,7 +17,7 @@ CREATE TABLE users (
     username VARCHAR(100),
     password VARCHAR(255) NOT NULL,
     point INT DEFAULT 0,
-    faculty VARCHAR(100)
+    faculty VARCHAR(100),
     profile_image VARCHAR(255)
 );
 
